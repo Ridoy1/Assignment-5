@@ -1,0 +1,24 @@
+
+#foods{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap:10px;
+}
+.card{
+    border: 1px solid goldenrod;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+}
+#foodDetail{
+  border-radius: 20px;
+  padding: 20px;
+  text-align: center;
+  ;
+}
+ul.manuitem{
+  list-style: none;
+}
+.title{
+  padding: 20px;
+}
